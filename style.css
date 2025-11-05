@@ -1,13 +1,13 @@
 .flex-item {
+    background: plum;
     width: 50px;
     height: 50px;
-    background: plum;
     border: 2px solid black;
 }
 
-/* Turn the OUTER div into a FLEXIBLE BOX 
-   which can control the LAYOUT of its INNER items
-*/
+/* Turn the OUTER div into a "FLEXBOX"
+   by setting the display PROPERTY to flex
+ */
 .flex-container {
     display: flex;
     justify-content: space-evenly;
