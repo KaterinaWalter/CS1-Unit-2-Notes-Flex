@@ -5,10 +5,27 @@
     border: 2px solid black;
 }
 
-/* Turn the OUTER div into a "FLEXBOX"
-   by setting the display PROPERTY to flex
+/* Use the OUTER DIV to control
+   the arrangement of INNER items
  */
 .flex-container {
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
+    align-items: center;
+
+    border: 2px solid red;
+    height: 100px;
+}
+
+/* If you change the flex-direction,
+   the MAIN AXIS & CROSS AXIS switch too
+ */
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center; /* horizontal */
+    
+    border: 2px solid blue;
+    height: 200px;
 }
