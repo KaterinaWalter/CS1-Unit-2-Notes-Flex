@@ -1,7 +1,7 @@
 .flex-item {
     background: plum;
-    min-width: 50px;
     min-height: 50px;
+    min-width: 50px;
     border: 2px solid black;
 }
 
@@ -14,19 +14,16 @@
     height: 100px;
 }
 
-/* If you set the direction to COLUMN instead,
-   the MAIN AXIS & the CROSS AXIS switch!
- */
 .flex-container-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     border: 2px solid blue;
-    height: 200px;
+    height: 300px;
 }
 
 #special {
-    flex-grow: 0.5;
+    flex-grow: 1;
 }
